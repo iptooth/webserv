@@ -32,7 +32,7 @@ Welcome to **Webserv**, a basic HTTP web server implemented in C++98 as part of 
 
 ## Installation
 
-To build and run **MyWebServer**, follow these steps:
+To build and run **Webserv**, follow these steps:
 
 1. **Clone the repository**:
     ```bash
