@@ -8,9 +8,6 @@ Welcome to **Webserv**, a basic HTTP web server implemented in C++98 as part of 
 - [Features](#features)
 - [Installation](#installation)
 - [Usage](#usage)
-- [Project Structure](#project-structure)
-- [Contributing](#contributing)
-- [License](#license)
 
 ## About the Project
 
