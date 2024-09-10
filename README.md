@@ -48,7 +48,8 @@ To build and run **Webserv**, follow these steps:
 
 3. **Run the server**:
     ```bash
-    ./webserv <config file>
+    # config files are located in the config directory
+    ./webserv ./config/<config file>
     ```
 
 ## Usage
