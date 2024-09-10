@@ -1,6 +1,6 @@
-# MyWebServer
+# Webserv
 
-Welcome to **MyWebServer**, a basic HTTP web server implemented in C++98 as part of the 42 School curriculum. This project provides a foundational understanding of web server operations, including request handling, response generation, and basic network communication.
+Welcome to **Webserver**, a basic HTTP web server implemented in C++98 as part of the 42 School curriculum. This project provides a foundational understanding of web server operations, including request handling, response generation, and basic network communication.
 
 ## Table of Contents
 
