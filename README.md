@@ -1,6 +1,6 @@
 # Webserv
 
-Welcome to **Webserver**, a basic HTTP web server implemented in C++98 as part of the 42 School curriculum. This project provides a foundational understanding of web server operations, including request handling, response generation, and basic network communication.
+Welcome to **Webserv**, a basic HTTP web server implemented in C++98 as part of the 42 School curriculum. This project provides a foundational understanding of web server operations, including request handling, response generation, and basic network communication.
 
 ## Table of Contents
 
@@ -37,7 +37,7 @@ To build and run **MyWebServer**, follow these steps:
 1. **Clone the repository**:
     ```bash
     git clone https://github.com/yourusername/mywebserver.git
-    cd mywebserver
+    cd webserv
     ```
 
 2. **Compile the project**:
@@ -47,7 +47,7 @@ To build and run **MyWebServer**, follow these steps:
 
 3. **Run the server**:
     ```bash
-    ./mywebserver
+    ./webserv
     ```
 
 ## Usage
