@@ -1,17 +1,3 @@
-/* ************************************************************************** */
-/*                                                                            */
-/*                                                        :::      ::::::::   */
-/*   CgiHandler.cpp                                     :+:      :+:    :+:   */
-/*                                                    +:+ +:+         +:+     */
-/*   By: jlecorne <jlecorne@student.42.fr>          +#+  +:+       +#+        */
-/*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2024/06/19 15:46:03 by nlence-l          #+#    #+#             */
-/*   Updated: 2024/09/10 15:01:10 by jlecorne         ###   ########.fr       */
-/*                                                                            */
-/* ************************************************************************** */
-
-
-
 #include "../../include/http/CgiHandler.hpp"
 #include "../../include/http/Request.hpp"
 #include "../../include/server/Core.hpp"

@@ -1,17 +1,3 @@
-/* ************************************************************************** */
-/*                                                                            */
-/*                                                        :::      ::::::::   */
-/*   Location.cpp                                       :+:      :+:    :+:   */
-/*                                                    +:+ +:+         +:+     */
-/*   By: jlecorne <jlecorne@student.42.fr>          +#+  +:+       +#+        */
-/*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2024/04/13 21:18:59 by jlecorne          #+#    #+#             */
-/*   Updated: 2024/09/10 15:01:41 by jlecorne         ###   ########.fr       */
-/*                                                                            */
-/* ************************************************************************** */
-
-
-
 #include "../../include/server/Location.hpp"
 #include "../../include/server/Server.hpp"
 #include "../../include/server/Core.hpp"

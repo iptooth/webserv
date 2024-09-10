@@ -1,15 +1,3 @@
-/* ************************************************************************** */
-/*                                                                            */
-/*                                                        :::      ::::::::   */
-/*   dir_listing.cpp                                    :+:      :+:    :+:   */
-/*                                                    +:+ +:+         +:+     */
-/*   By: jlecorne <jlecorne@student.42.fr>          +#+  +:+       +#+        */
-/*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2024/07/16 13:48:13 by jlecorne          #+#    #+#             */
-/*   Updated: 2024/08/16 12:06:28 by jlecorne         ###   ########.fr       */
-/*                                                                            */
-/* ************************************************************************** */
-
 #include "../../include/server/Core.hpp"
 
 std::string generate_directory_listing(const std::string& directory_path, std::string curr_path) {
