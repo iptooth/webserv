@@ -47,7 +47,7 @@ To build and run **MyWebServer**, follow these steps:
 
 3. **Run the server**:
     ```bash
-    ./webserv
+    ./webserv <config file>
     ```
 
 ## Usage
