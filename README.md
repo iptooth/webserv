@@ -14,21 +14,22 @@ Welcome to **Webserv**, a basic HTTP web server implemented in C++98 as part of 
 
 ## About the Project
 
-**MyWebServer** is a fundamental project designed to deepen understanding of how web servers work by implementing one from scratch in C++98. The objective is to handle basic HTTP requests and serve static files, mimicking fundamental web server functionalities.
+**Webserv** is a fundamental project designed to deepen understanding of how web servers work by implementing one from scratch in C++98. The objective is to handle basic HTTP requests and serve static files, mimicking fundamental web server functionalities.
 
 ### Key Objectives:
-- **Request Handling**: Parse and process HTTP GET requests.
+- **Request Handling**: Parse and process HTTP GET POST and DELETE requests.
 - **Static File Serving**: Serve static files from a specified directory.
 - **Socket Programming**: Handle client connections over TCP.
 - **C++98 Compliance**: Develop using the C++98 standard to ensure compatibility with older C++ compilers.
 
 ## Features
 
-- **Basic HTTP Handling**: Supports HTTP GET requests.
+- **Basic HTTP Handling**: Supports HTTP GET POST and DELETE requests.
 - **Static File Serving**: Serve files from a directory on the server.
 - **Socket Communication**: Handles TCP connections with clients.
 - **Request Parsing**: Basic parsing of HTTP requests and generation of responses.
 - **Simple Multi-threading**: Handles multiple client connections (if applicable).
+- **CGI implementation**: Support CGI scripts.
 
 ## Installation
 
