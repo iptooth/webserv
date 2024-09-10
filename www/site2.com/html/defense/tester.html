@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Webserv/defense</title>
+    <link rel="stylesheet" href="../../css/main.css">
+</head>
+<body>
+    <div class="wrapper">
+        <header>
+            <h1>Defense tester</h1>
+        </header>
+        <main>
+            <div>
+                <h2>GET request on cgi-bin/: (see config)</h2>
+                <a href="/printer.py">printer</a>
+            </div>
+            <div>
+                <h2>Test printer</h2>
+                <p>This tester runs a CGI script with args</p>
+                <form action="/printer.py" method="post">
+                    <label for="textInput">your message</label>
+                    <input type="text" placeholder="Enter some text" name="textInput">
+                    <button type="submit">Submit</button>
+                </form>
+            </div>
+        </main>
+        <footer>
+            <nav>
+                <a href="../../index.html" class="nav-link">Go to Index</a>
+            </nav>
+            <p>&copy; 2024 Nlence-l & Jlecorne Webserv. All rights reserved.</p>
+        </footer>
+    </div>
+</body>
+</html>

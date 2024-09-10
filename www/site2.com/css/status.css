@@ -1,0 +1,104 @@
+/* General styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+
+
+/* Wrapper to hold header, main, and footer */
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+
+
+/* Header styles */
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 1em 0;
+    text-align: center;
+}
+
+
+
+/* Main content styles */
+main {
+    flex: 1;
+    max-width: 800px;
+    margin: 2em auto;
+    padding: 1em;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+main p {
+    font-size: 1.2em;
+    margin-bottom: 1em;
+}
+
+main div {
+    padding: 2em;
+}
+
+
+
+/* Success */
+.success-header {
+    background-color: #53f46b;
+}
+
+.success-content h2 {
+    color: #53f46b;
+}
+
+
+
+/* Error */
+.error-header {
+    background-color: #d9534f;
+}
+
+.error-content h2 {
+    color: #d9534f;
+}
+
+
+
+/* Navigation styles */
+nav {
+    text-align: center; /* Center the navigation link */
+    margin: 20px 0; /* Space above and below */
+}
+
+.nav-link {
+    text-decoration: none; /* Remove underline */
+    color: #FFD700; /* Yellow color */
+    font-weight: bold; /* Bold text */
+}
+
+.nav-link:hover {
+    color: #FFC107; /* Slightly darker yellow on hover */
+    text-decoration: underline; /* Underline on hover */
+}
+
+
+
+/* Footer styles */
+footer {
+    text-align: center;
+    padding: 1em 0;
+    background-color: #333;
+    color: #fff;
+    margin-top: auto; /* Ensure footer is at the bottom */
+}

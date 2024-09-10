@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Webserv/tools</title>
+    <link rel="stylesheet" href="../../css/main.css">
+</head>
+<body>
+    <div class="wrapper">
+        <header>
+            <h1>Upload file/s</h1>
+        </header>
+        <main>
+            <form action="/uploads/" method="post" enctype="multipart/form-data">
+                <label for="file"><strong>Choose file/files:</strong> (to try multiple uploads at once check html)</label>
+                <br>
+                <input type="file" id="file1" name="file" required><br><br>
+                <input type="submit" value="Upload">
+                <br>
+
+                <!-- Uncomment code below to upload multiple files at once -->
+                 
+                <!-- <input type="file" id="file2" name="file" required><br><br>
+                <input type="submit" value="Upload"> -->
+            </form>
+        </main>
+        <footer>
+            <nav>
+                <a href="../../index.html" class="nav-link">Go to Index</a>
+            </nav>
+            <p>&copy; 2024 Nlence-l & Jlecorne Webserv. All rights reserved.</p>
+        </footer>
+    </div>
+</body>
+</html>
